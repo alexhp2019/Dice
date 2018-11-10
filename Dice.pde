@@ -49,7 +49,7 @@ void mousePressed()
 {
   redraw();
 }
-class Die //models one single dice cube
+class Die 
 {
   int myY, myX;
   boolean one;
@@ -58,7 +58,7 @@ class Die //models one single dice cube
   boolean four;
   boolean five;
   boolean six;
-  Die(int x, int y) //constructor
+  Die(int x, int y) 
   {
     myX = x;
     myY = y;
