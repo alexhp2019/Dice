@@ -1,15 +1,15 @@
 void setup()
 {
-  size(500, 500);
+  size(400, 400);
   noLoop();
 }
 void draw()
 {
   background(200);
   int totalNum = 0;
-  for (int j = 25; j < 400; j += 70)
+  for (int j = 40; j < 300; j += 70)
   {
-    for (int i = 50; i < 450; i += 70)
+    for (int i = 35; i < 350; i += 70)
     {
       Die first = new Die(i, j);
       first.roll();
@@ -42,7 +42,7 @@ void draw()
   }
   fill(0);
   textSize(25);
-  text("Total: " + totalNum, 190, 475);
+  text("Tico's Total: " + totalNum, 100, 355);
   fill(255);
 }
 void mousePressed()
